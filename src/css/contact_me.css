@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color-Defining */
+    --primary-color-700: #2e2d93;
+    --primary-color-600: #2e2d93cc;
+    --primary-color-500: #2e2d93bf;
+    --primary-color-400: #2e2d9399;
+    --primary-color-300: #2e2d9373;
+    --primary-color-200: #2e2d9333;
+    --primary-color-100: #2e2d9326;
+    --gray-600: #1A1A1A;
+    --gray-500: #404040;
+    --gray-400: #666666;
+    --gray-300: #8C8C8C;
+    --gray-200: #b3b3b3;
+    --gray-100: #d9d9d9;
+    --gray-50: #e5e7eb;
+    --gray-20: #F3F4F6;
+    --white: #ffffff;
+    --dark: #000000;
+
+    /* Typography-Defining */
+
+    --Very-small: 400 11px/130% "Inter", sans-serif;
+    --Inner-body-light-: 300 12px/150% "Inter", sans-serif;
+    --Body-: 400 14px/100% "Inter", sans-serif;
+    --Small-: 400 12px/130% "Inter", sans-serif;
+    --One-line-regular-: 400 14px/16px "Inter", sans-serif;
+    --Inner-title-: 600 16px/130% "Inter", sans-serif;
+    --Article-title-: 400 20px/130% "Poppins", sans-serif;
+    --Section-title-: 600 24px/130% "Poppins", sans-serif;
+    --Title-: 600 12px/130% "Poppins", sans-serif;
+}
+
+/* header-css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+    display: none;
+}
+
+#logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+#menu {
+    width: 48px;
+    height: 48px;
+    margin: 8px 9px;
+}
+
+/* main-css */
+
+main h5 {
+    text-align: center;
+    padding: 0 20px 0;
+    margin-top: 30px;
+    font:var(--Section-title-);
+    color: var(--dark);
+}
+
+/* filler-wrapper-css */
+
+.filler-wrapper {
+    align-items: center;
+    padding: 30px;
+    margin: 40px 12px;
+}
+
+.filler-wrapper p {
+    padding-bottom: 12px;
+}
+
+.filled {
+    margin: 15px 0;
+}
+
+.filler-wrapper .feel_free p {
+    font: var(--One-line-regular-);
+    color: var(--gray-500);
+    padding-bottom: 5px;
+    text-align: center;
+}
+.filler-wrapper h6 {
+    font: var(--Inner-title-);
+    color: var(--gray-600);
+    padding-bottom: 8px;
+}
+.filler-wrapper h6 span {
+    color: red;
+}
+.button {
+    background-color: var(--primary-color-700);
+    border-radius: 25px;
+    width: 102px;
+    margin: 30px;
+}
+.button h5{
+    padding: 16px;
+    font: var(--Inner-title-);
+    color: var(--white);
+}
+#nameinput, #emailinput, #messagenput {
+    font: var(--Small-);
+    color: var(--gray-600);
+}
+input, textarea {
+    background-color: var(--gray-50);
+    width: 100%;
+    height: 10vh;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 155px;
+}
+
+/*contact-wrapper-css */
+
+.contact-wrapper .contact {
+    display: flex;
+    padding: 10px;
+}
+
+.contact h6 {
+    font-size: 22px;
+    padding: 10px 0 0 10px;
+}
+
+.contact a {
+    margin: 8px 12px;
+    text-decoration: none;
+    color: var(--primary-color-400);
+    font-size: 30px;
+}
+.contact h6{
+    color: var(--gray-600);
+    font: var(--Inner-title-);
+}
+.social-media {
+    text-align: center;
+    padding: 30px;
+}
+
+.social-media a {
+    color: var(--primary-color-400);
+    font: var(--Inner-title-);
+    text-decoration: none;
+}
+
+.social-media span {
+    color: #000000;
+}
+
+
+/* footer-css */
+
+footer {
+    text-align: center;
+    padding: 24px 24px 30px;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer h4 {
+    font: var(--One-line-regular-);
+}
+
+.social-media-wrapper ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-media-wrapper li {
+    margin: 8px;
+}
+
+.social-media-wrapper a {
+    text-decoration: none;
+    color: var(--primary-color-400);
+    font-size: 30px;
+}
+
+/* JavaScript css */
+
+@media(max-width: 320px) {
+    #menu_bar {
+        display: none;
+    }
+
+    #menu_bar {
+        z-index: 100;
+        padding-top: 60px;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        background-color: var(--gray-50);
+    }
+
+    #menu_bar li {
+        margin: 0;
+        padding: 10px 100px;
+        list-style: none;
+        background-color: var(--white);
+    }
+
+    #menu_bar a {
+        text-decoration: none;
+        font: var(--Article-title-);
+        color: var(--dark);
+    }
+}
+
+@media (min-width: 321px) and (max-width: 1023px) {
+    #menu_bar {
+        display: none;
+    }
+
+    .nav-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        text-align: center;
+    }
+
+    #navbar li:last-child {
+        border-bottom-left-radius: 12px;
+    }
+
+    #menu_bar li {
+        width: 538px;
+        margin: 0;
+        padding: 10px 100px;
+        list-style: none;
+        background-color: var(--white);
+    }
+
+    #menu_bar a {
+        text-decoration: none;
+        font: var(--Article-title-);
+        color: var(--dark);
+    }
+}
+
+/* Media Query */
+
+@media (min-width: 768px) {
+#nameinput, #emailinput, #messagenput {
+        font: var(--Article-title-);
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tow-wrapper{
+        margin: 20px 120px;
+    }
+}
+@media (min-width: 1024px) {
+    /* Desktop-Header */
+    
+    nav {
+        height: 88px;
+    }
+
+    nav #menu {
+        display: none;
+    }
+
+    nav #logo {
+        width: 88px;
+        height: 88px;
+    }
+
+    nav ul {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        align-self: center;
+    }
+
+    nav li {
+        padding: 16px;
+        margin-right: 10px;
+        font: var(--Article-title-);
+        list-style: none;
+    }
+
+    nav a {
+        color: var(--dark-);
+        text-decoration: none;
+    }
+
+    /* Body */
+
+    .tow-wrapper {
+        display: flex;
+    }
+
+    .contact-wrapper {
+        align-self: center;
+    }
+    .contact-wrapper .social-media{
+        margin: 10px 40px;
+    }
+}
