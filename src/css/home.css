@@ -34,7 +34,7 @@
     --Inner-title-: 600 16px/130% "Inter", sans-serif;
     --Article-title-: 400 20px/130% "Poppins", sans-serif;
     --Section-title-: 600 24px/130% "Poppins", sans-serif;
-    --Title-: 600 12px/130% "Poppins", sans-serif;
+    --Title-: 600 36px/130% "Poppins", sans-serif;
 }
 
 /* header-css */
@@ -291,9 +291,12 @@ footer h4 {
 }
 
 @media (min-width: 768px) {
+    .first-section h2 {
+        font: var(--Title-);
+    }
     .description h2 {
-        padding-right: 190px;
-        padding-left: 190px;
+        padding-right: 100px;
+        padding-left: 100px;
     }
     footer {
         margin-top: 168px;
@@ -341,14 +344,17 @@ footer h4 {
     footer {
         margin-top:206px;
     }
-    .description h2 {
-        padding-right: 80px;
-        padding-left: 80px;
+    .first-section{
+        padding: 40px 25px;
     }
+    .description h2 {
+        padding: 120px 10px 0;
+        /* padding-right: 10px;
+        padding-left: 10px; */
+    } 
     .first-section {
         display: flex;
         justify-content: center;
-        padding: 40px 80px;
     }
     .description{
         align-self: center;
@@ -356,7 +362,7 @@ footer h4 {
 
     .profile-wrapper img {
         width: 20rem;
-        padding: 10px;
+        padding: 70px 10px 10px;
     }
 
     .my-works {
