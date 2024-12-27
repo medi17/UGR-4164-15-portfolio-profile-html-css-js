@@ -123,7 +123,7 @@ main h1 {
     border-radius: 4px;
 }
 
-.logo-and-description h3 {
+.logo-and-description h2 {
     padding-left: 24px;
     font: var(--Inner-title-);
     color: var(--gray-600);
@@ -133,7 +133,7 @@ main h1 {
     padding: 10px 30px 30px;
 }
 
-.description h4 {
+.description h3 {
     padding: 16px 0;
     font: var(--One-line-regular-);
     color: var(--gray-600);
@@ -259,7 +259,7 @@ footer {
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-footer h4 {
+footer h3 {
     font: var(--One-line-regular-);
 }
 
@@ -286,7 +286,9 @@ footer h4 {
     #menu_bar {
         display: none;
     }
-
+    .menu-container {
+        text-align: center;
+    }
     #menu_bar {
         z-index: 100;
         padding-top: 60px;
@@ -357,7 +359,7 @@ footer h4 {
         padding: 16px 50px;
     }
 
-    .description h4 {
+    .description h3 {
         font: var(--Body-);
     }
 
@@ -413,11 +415,11 @@ footer h4 {
         margin: 20px 220px;
     }
 
-    .logo-and-description h3 {
+    .logo-and-description h2 {
         font: var(--Article-title-);
     }
 
-    .description h4 {
+    .description h3 {
         font: var(--Inner-title-);
     }
 

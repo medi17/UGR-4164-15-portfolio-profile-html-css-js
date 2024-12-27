@@ -96,7 +96,7 @@ main h1 {
     font:var(--Small-);
     color: var(--gray-500);
 }
-.work h4{
+.work h2{
     font:var(--Body-);
     padding-top: 10px;
     color: var(--gray-600);
@@ -138,7 +138,9 @@ footer h4 {
     #menu_bar {
         display: none;
     }
-
+    .menu-container {
+        text-align: center;
+    }
     #menu_bar {
         z-index: 100;
         padding-top: 60px;
@@ -213,7 +215,7 @@ footer h4 {
         padding-right: 10px;
     }
 
-    .work h4 {
+    .work h2 {
         font: var(--Article-title-);
     }
 }

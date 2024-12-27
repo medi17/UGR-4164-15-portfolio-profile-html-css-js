@@ -99,6 +99,8 @@ main h5 {
 }
 .filler-wrapper h6 span {
     color: red;
+    font-size: 20px;
+    font-weight: 600;
 }
 .button {
     background-color: var(--primary-color-700);
@@ -203,7 +205,9 @@ footer h4 {
     #menu_bar {
         display: none;
     }
-
+    .menu-container {
+        text-align: center;
+    }
     #menu_bar {
         z-index: 100;
         padding-top: 60px;

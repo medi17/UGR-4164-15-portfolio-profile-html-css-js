@@ -151,13 +151,13 @@ iframe {
     padding: 1rem;
 }
 
-.adventures h5 {
+.adventures h2 {
     padding: 20px 20px;
 }
 figcaption{
     padding: 2rem 1rem;
 }
-.adventures h5,
+.adventures h2,
 figcaption {
     font: var(--Inner-title-);
 }
@@ -198,7 +198,9 @@ footer h4 {
     #menu_bar {
         display: none;
     }
-
+    .menu-container {
+        text-align: center;
+    }
     #menu_bar {
         z-index: 100;
         padding-top: 60px;
