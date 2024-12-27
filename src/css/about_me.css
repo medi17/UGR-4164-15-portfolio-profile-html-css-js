@@ -34,7 +34,7 @@
     --Inner-title-: 600 16px/130% "Inter", sans-serif;
     --Article-title-: 400 20px/130% "Poppins", sans-serif;
     --Section-title-: 600 24px/130% "Poppins", sans-serif;
-    --Title-: 600 12px/130% "Poppins", sans-serif;
+    --Title-: 600 36px/130% "Poppins", sans-serif;
 }
 
 /* header-css */
@@ -146,16 +146,17 @@ iframe {
     margin: 1rem;
 }
 
-figcaption,
+
 .pic {
     padding: 1rem;
 }
 
-.vid_pic figcaption,
-h5 {
+.adventures h5 {
     padding: 20px 20px;
 }
-
+figcaption{
+    padding: 2rem 1rem;
+}
 .adventures h5,
 figcaption {
     font: var(--Inner-title-);
@@ -330,23 +331,28 @@ footer h4 {
     }
 
     .hobbies h1 {
-        padding: 16px 16rem;
+        padding: 16px 20rem;
     }
 
     .hobbies h2,
     .books h3 {
-        padding: 10px 4rem;
+        padding: 10px 8rem;
     }
-
+    .mezmur h3{
+        padding: 10px 7rem;
+    }
     .hobbies img {
         width: 240px;
         height: 240px;
+        margin-top: 30px;
     }
 
-    .hobbies p {
-        padding: 1rem 3rem;
+    .books p {
+        padding: 3rem 7.5rem;
     }
-
+    .mezmur p {
+        padding: 10px 4.5rem;
+    }
     .hobbies .Aud_desc {
         padding: 2rem 2rem 0;
     }
@@ -365,19 +371,18 @@ footer h4 {
     .two-interests {
         display: flex;
         flex-direction: row-reverse;
-        padding: 2rem 10rem;
+        padding: 2rem 8rem 2rem 5rem;
     }
 
     .two-interests p {
-        padding: 1rem 3rem;
+        padding: 1rem 8rem;
     }
 
     .adventures h1 {
-        padding: 16px 12rem;
+        padding: 16px 16rem;
     }
-
     .adventures p {
-        padding: 10px 4rem;
+        padding: 2rem 4rem;
     }
 
     .code_editor {
