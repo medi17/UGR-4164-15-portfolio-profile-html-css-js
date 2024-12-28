@@ -6,4 +6,8 @@ menu.addEventListener('click', function () {
     navbar.style.height = '680px';
     navbar.style.backgroundColor = 'var(--gray-50)';
     menu_bar.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+});
+menu.addEventListener('blur', () => {
+  body.style.overflow = 'auto'; 
 });
