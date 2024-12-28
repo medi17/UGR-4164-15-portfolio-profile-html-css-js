@@ -160,7 +160,7 @@ textarea {
 }
 
 .social-media a {
-    color: var(--primary-color-400);
+    color: var(--primary-color-600);
     font: var(--Inner-title-);
     text-decoration: none;
 }
