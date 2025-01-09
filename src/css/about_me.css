@@ -80,7 +80,6 @@ h1 {
 
 h2 {
     padding: 0 20px 20px;
-    text-align: left;
 }
 
 h3 {
@@ -109,11 +108,12 @@ h2 {
     width: 240px;
     height: 240px;
 }
-
-audio {
-    margin: 12px;
+.hobbies h2 {
+    text-align: left;
 }
-
+audio{
+    margin:12px 0;
+}
 audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
     background-color: #81c1f4;
@@ -143,10 +143,11 @@ audio::-webkit-media-controls-panel {
 iframe {
     width: 285px;
     height: 183px;
-    margin: 1rem;
+}  
+
+.pic img{
+    width: 250px;
 }
-
-
 .pic {
     padding: 1rem;
 }
@@ -172,6 +173,7 @@ footer {
 
 footer h3 {
     font: var(--One-line-regular-);
+    text-align: center;
 }
 
 .social-media-wrapper ul {
@@ -259,12 +261,17 @@ footer h3 {
 /* Media Query */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         padding: 30px 160px;
+        text-align: center;
     }
 
+    .adventures h2{
+        padding: 30px 260px;
+    }
+    .adventures .vid{
+        text-align: center;
+    }
     .audios {
         display: flex;
         flex-direction: column;
@@ -399,5 +406,13 @@ footer h3 {
         display: flex;
         justify-content: center;
         align-self: center;
+    }
+}
+
+@media(min-width: 1270px){
+    .audios{
+        display: flex;
+        flex-direction: column;
+        margin:30px 0 0 130px;
     }
 }

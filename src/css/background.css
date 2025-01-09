@@ -64,7 +64,7 @@ nav ul {
 /* educational-css */
 
 .educational {
-    padding: 40px 40px;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -102,7 +102,7 @@ main h1 {
 }
 
 .experiences-wrapper {
-    margin: 40px;
+    margin: 20px;
     min-width: 243px;
 }
 
@@ -147,7 +147,7 @@ main h1 {
 /* skill-table-CSS */
 
 .skill {
-    margin: 10px 50px;
+    margin: 10px;
 }
 
 table {
@@ -342,7 +342,7 @@ footer h3 {
         color: var(--dark);
     }
 }
-/* Media Query */
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .experiences-wrapper {
         margin: 30px 187px 109px;
@@ -350,6 +350,12 @@ footer h3 {
 }
 
 @media (min-width: 768px) {
+    .educational {
+        padding: 40px 40px;
+    }
+    .skill {
+        margin: 10px 50px;
+    }
     .experiences-wrapper .expert {
         margin: 0px 12px 109px;
     }
