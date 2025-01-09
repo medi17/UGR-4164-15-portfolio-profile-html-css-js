@@ -262,7 +262,7 @@ footer h4 {
 /* Media Query */
 
 @media (min-width: 768px) {
-#nameinput, #emailinput, #messagenput {
+#nameinput, #emailinput, #messageinput {
         font: var(--Article-title-);
         font-size: 16px;
     }
