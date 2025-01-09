@@ -227,6 +227,7 @@ footer h3 {
 }
 
 @media (min-width: 321px) and (max-width: 1023px) {
+
     #menu_bar {
         display: none;
     }
@@ -256,16 +257,18 @@ footer h3 {
         font: var(--Article-title-);
         color: var(--dark);
     }
+
 }
 
 /* Media Query */
 @media (min-width: 768px) and (max-width: 1024px) {
-
-    p, h2, h3 {
-        padding: 30px 160px;
+    p {
+        padding: 20px 180px;
+    }
+    .hobbies h2, h3{
         text-align: center;
     }
-
+    
     .adventures h2{
         padding: 30px 260px;
     }
